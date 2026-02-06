@@ -268,3 +268,7 @@ nav a:hover {
 #kita-ikuyo{
     background-color: #ff0000;
 }
+
+/*asked ai to resize for mobile since i have no idea yet*/
+    @media (max-width: 600px) { [id] { scroll-margin-top: 120px; } header { height: auto; padding: 10px; } nav ul { flex-wrap: wrap; justify-content: center; gap: 10px; } nav a { font-size: 14px; } .gallery-container { flex-direction: column; align-items: center; } .gallery-item { width: 90%; } .main-content-row { flex-direction: column; text-align: center; padding: 20px; } img { max-width: 100%; height: auto; } .description-text { padding: 15px; } }
+    
