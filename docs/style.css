@@ -277,8 +277,9 @@ nav a:hover {
      } 
      header 
      { 
-         height: auto; padding: 10px; 
-         font-size: 10px;
+         height: auto; 
+         padding: 10px; 
+         font-size: 6px;
          font-weight: bold;
      } 
      nav ul 
@@ -315,9 +316,8 @@ nav a:hover {
      { 
          padding: 15px; 
      } 
-     .anchor-point 
-     { 
-        top: -100px; /* Reduces the invisible gap so it doesn't look like a mistake */
+     .scroll-anchor{
+    top: -100px;
     }
     }
     
