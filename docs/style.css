@@ -280,7 +280,7 @@ nav a:hover {
          height: auto; 
          padding: 10px;
          width: 100%;
-         text-alignment: center;
+         text-align: center;
          font-size: 15px;
          font-weight: bold;
      } 
