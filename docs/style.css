@@ -307,6 +307,7 @@ nav a:hover {
          justify-content: center; 
          margin: 0 auto;
          gap: 10px; 
+         padding-left: 0;
      } 
      nav li{
         margin: 0;
@@ -341,7 +342,7 @@ nav a:hover {
          padding: 15px; 
      } 
      .scroll-anchor{
-    top: -10px;
+    top: 0px;
     }
     }
     
