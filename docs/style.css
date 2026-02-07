@@ -204,6 +204,7 @@ nav a:hover {
 /* 6. The Trigger: When the ID is in the URL, make it visible */
 .modal-overlay:target {
     opacity: 1;
+    overscroll-behavior: contain;
     overflow-y: hidden;
     pointer-events: auto;
 }
