@@ -184,9 +184,6 @@ nav a:hover {
     left: 0;
     width: 100lvw;
     height: 100lvh;
-
-    overflow-y: auto;
-    
     /* 2. The 'Look': Dark semi-transparent background */
     background: rgba(0, 0, 0, 0.85); 
     /* 3. The 'Logic': Start invisible and unclickable */
@@ -207,6 +204,7 @@ nav a:hover {
 /* 6. The Trigger: When the ID is in the URL, make it visible */
 .modal-overlay:target {
     opacity: 1;
+    overflow-y: hidden;
     pointer-events: auto;
 }
 
@@ -216,8 +214,8 @@ nav a:hover {
     border-radius: 20px;
     border: 2px solid #ffffff;
     position: relative;
-    max-width: 500px;
-    width: 90%;                /* Responsive on mobile */
+    max-width: 480px;
+    width: 85%;                /* Responsive on mobile */
     text-align: center;
     box-shadow: 0 0 30px rgba(255, 153, 153, 0.3); /* Soft pink glow */
 }
