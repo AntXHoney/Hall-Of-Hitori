@@ -189,7 +189,7 @@ nav a:hover {
     
     /* 2. The 'Look': Dark semi-transparent background */
     background: rgba(0, 0, 0, 0.85); 
-    padding: 60px;
+    padding: 5px;
     /* 3. The 'Logic': Start invisible and unclickable */
     opacity: 0;
     pointer-events: none; 
