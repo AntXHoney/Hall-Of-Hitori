@@ -292,6 +292,7 @@ nav a:hover {
      {
         flex: none;
         align-items: center;
+        text-align: center;
         margin: 0 0 10px 0;
          width: 100%;
      }
