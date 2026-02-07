@@ -182,8 +182,8 @@ nav a:hover {
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
+    width: 100dvw;
+    height: 100dvh;
     
     /* 2. The 'Look': Dark semi-transparent background */
     background: rgba(0, 0, 0, 0.85); 
@@ -271,6 +271,7 @@ nav a:hover {
 }
 
 /*asked ai to resize for mobile since i have no idea yet*/
+    /*update: i understand it now lol*/
     @media (max-width: 600px) 
     { [id] 
      { 
